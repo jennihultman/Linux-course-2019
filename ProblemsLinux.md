@@ -1,11 +1,11 @@
-# Problems
+# Linux Problems
 
 ### NOTE: web-based tools are not allowed; everything should be performed in command line
 
 ### Please answer to the questions by writing the commands you used and explain their use
 
-## Problem 1 
-**to pass this problem you have to resolve point (a), (b), (c) and at least two of the other points**
+## Question 1 
+**to correctly answer this question you have to resolve point (a), (b), (c) and at least two of the other points**
 
 ### (a)
 
@@ -39,7 +39,7 @@ From all the 50 samples as in point **(c)** extract in a single multifasta file 
 From the blast results as in point **(e)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
 
 ## Problem 2
-**to pass this problem you have to resolve all the points**
+**to correctly answer this question you have to resolve all the points**
 
 ### (a)
 
@@ -69,7 +69,7 @@ and they should be transformed as
 Calculate the frequency of presence of stretch of 9, 10 and 11 of single Cytosine (C) and Guanine (G) (e.g. GGGGGGGGG or CCCCCCCCC) in each genome a make a report
 
 ## Problem 3
-**to pass this problem you have to resolve all the points**
+**to correctly answer this question you have to resolve all the points**
 
 You run a BLAST search against 16S rRNA gene database using the following command
 
@@ -92,7 +92,7 @@ For further analysis you’ll need to modify the output. Write the results as a 
 You will be using program that will need a file from your $WRKDIR directory to be in the same directory ($HOME) where you run the program. However, the file is 5 GB and does not fit to your $HOME. What can you do? 
 
 ## Problem 5
-**to pass this problem you have to resolve all the points**
+**to correctly answer this question you have to resolve all the points**
 
 ## (a)
 Open a new terminal window. Check from the first one in which taito node you are logged in to. In the new terminal log into the same node. Download all cds of a bacterial genome of your choice from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/). 
@@ -107,5 +107,5 @@ Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* a
 ## (c) 
 Calculate the number of genes and extract the 50 first genes into a new file. From the 50 first genes check by eyeballing using color  how often TTTTTTT is found. 
 
-## Probelm 6	
+## Problem 6	
 Save your results as a *.txt* file and move them to a shared folder in your *wrk* directory. Make sure to give **Jenni** and **Mirko** access to your results. What do you need to do to enable that?
