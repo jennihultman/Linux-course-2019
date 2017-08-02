@@ -4,7 +4,51 @@
 
 ### Please answer to the questions by writing the commands you used and explain their use
 
-## Question 1 
+## Question 1
+
+You will be using program that will need a file from your $WRKDIR directory to be in the same directory ($HOME) where you run the program. However, the file is 5 GB and does not fit to your $HOME. What can you do? 
+
+## Question 2
+**to correctly answer this question you have to resolve all the points**
+
+You run a BLAST search against 16S rRNA gene database using the following command
+
+```
+pb blastn -dbnuc current_GREENGENES_gg16S_unaligned.fasta -query myseq.fastq -out blastoutput.txt -outfmt 6 -num_descriptions 1
+```
+
+please answer the following questions
+
+## (a)
+
+What do the used parameters mean? And what are the columns in the output?
+
+## (b)
+
+For further analysis you’ll need to modify the output. Write the results as a text file with
+-	first column for the accession number 
+-	second for the sorted number of hits to that accession number
+
+## Question 3
+**to correctly answer this question you have to resolve all the points**
+
+## (a)
+
+Open a new terminal window. Check from the first one in which taito node you are logged in to. In the new terminal log into the same node. Download all cds of a bacterial genome of your choice from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/). 
+
+## (b)
+
+Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* and *gbkeyto*. The new name should contain only
+
+```
+>lcl| accessionumber_cds_number 
+```
+
+## (c)
+
+Calculate the number of genes and extract the 50 first genes into a new file. From the 50 first genes check by eyeballing using color  how often TTTTTTT is found. 
+
+## Question 4 
 **to correctly answer this question you have to resolve point (a), (b), (c) and at least two of the other points**
 
 ### (a)
@@ -38,7 +82,7 @@ From all the 50 samples as in point **(c)** extract in a single multifasta file 
 
 From the blast results as in point **(e)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
 
-## Problem 2
+## Question 5
 **to correctly answer this question you have to resolve all the points**
 
 ### (a)
@@ -68,44 +112,7 @@ and they should be transformed as
 
 Calculate the frequency of presence of stretch of 9, 10 and 11 of single Cytosine (C) and Guanine (G) (e.g. GGGGGGGGG or CCCCCCCCC) in each genome a make a report
 
-## Problem 3
-**to correctly answer this question you have to resolve all the points**
+## Question 6
 
-You run a BLAST search against 16S rRNA gene database using the following command
-
-```
-pb blastn -dbnuc current_GREENGENES_gg16S_unaligned.fasta -query myseq.fastq -out blastoutput.txt -outfmt 6 -num_descriptions 1
-```
-
-please answer the following questions
-
-## (a)
-
-What do the used parameters mean? And what are the columns in the output?
-
-## (b) 
-For further analysis you’ll need to modify the output. Write the results as a text file with
--	first column for the accession number 
--	second for the sorted number of hits to that accession number
-
-## Problem 4
-You will be using program that will need a file from your $WRKDIR directory to be in the same directory ($HOME) where you run the program. However, the file is 5 GB and does not fit to your $HOME. What can you do? 
-
-## Problem 5
-**to correctly answer this question you have to resolve all the points**
-
-## (a)
-Open a new terminal window. Check from the first one in which taito node you are logged in to. In the new terminal log into the same node. Download all cds of a bacterial genome of your choice from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/). 
-
-## (b)
-Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* and *gbkeyto*. The new name should contain only
-
-```
->lcl| accessionumber_cds_number 
-```
-
-## (c) 
-Calculate the number of genes and extract the 50 first genes into a new file. From the 50 first genes check by eyeballing using color  how often TTTTTTT is found. 
-
-## Problem 6	
 Save your results as a *.txt* file and move them to a shared folder in your *wrk* directory. Make sure to give **Jenni** and **Mirko** access to your results. What do you need to do to enable that?
+
