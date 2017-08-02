@@ -21,5 +21,5 @@ The course will start the 5th of September with a 2 hours introduction and some 
 By 5th of October each student should submit online to the teacher (instruction during the introduction day) the solutions of the problems. Student will pass the exam if they will answer correctly at least 70% of the problems and questions. The teacher will give the final results in two weeks. If the student is interested on 13th of October there will be a session where the teachers will give feedback to the students on the solutions of the problems.
 
 ## Organizers 
-•	Docent Jenni Hultman, University of Helsinki, Finland
-•	Associate Professor Mirko Rossi, University of Helsinki, Finland
+- Docent Jenni Hultman, University of Helsinki, Finland
+- Associate Professor Mirko Rossi, University of Helsinki, Finland
