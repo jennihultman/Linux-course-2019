@@ -5,7 +5,7 @@
 ### Please answer to the questions by writing the commands you used and explain their use
 
 ## Problem 1 
-**to pass this problem you have to resolve point (a), (c) and at least two of the other points**
+**to pass this problem you have to resolve point (a), (b), (c) and at least two of the other points**
 
 ### (a)
 
