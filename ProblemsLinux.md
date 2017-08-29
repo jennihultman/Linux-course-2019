@@ -55,17 +55,16 @@ Calculate the number of genes and extract the 50 first genes into a new file. Fr
 ## Question 4 
 
 ### (a)
-**Points: 5**
+**Points: 1**
 
-Download from * [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) directly on your CSC working directory from 50 randomly selected files of *Campylobacter jejuni* (nucleotide sequences of the CDS annotated for the selected genome) using the following format **cds_from_genomic.fna.gz**
-
-and performed the following actions:
-
-1. calculate the average number of CDS of the 50 samples
-
-2. delete all the CDS with length < 100 amino acid and save the results in a new file named *New_accession number.cds_from_genomic.fna*.
+Download from * [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) directly on your CSC working directory from 5 randomly selected files of *Campylobacter jejuni* (nucleotide sequences of the CDS annotated for the selected genome) using the following format **cds_from_genomic.fna.gz** and calculate the average number of CDS of the 5 samples.
 
 ### (b)
+**Points: 4**
+
+Delete all the CDS with length < 100 amino acid from the 5 **cds_from_genomic.fna.gz** you dowloaded and save the results in a new file named *New_accession number.cds_from_genomic.fna*.
+
+### (c)
 **Points: 4**
 
 print in a new file the list of each *New_accession number.cds_from_genomic.fna* including the complete path 
@@ -75,15 +74,15 @@ for example
 /wrk/mirossi/Linuxcourse/CjejuniCDS/New_GCA_000254735.2_ASM25473v2.cds_from_genomic.fna
 ```
 
-### (c)
-**Points: 8**
-
-From all the 50 samples as in point **(a)** extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
-
 ### (d)
 **Points: 8**
 
-From the blast results as in point **(c)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
+From all the 50 samples as in point **(b)** extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
+
+### (e)
+**Points: 8**
+
+From the blast results as in point **(d)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
 
 ## Question 5
 **Points: 10**
