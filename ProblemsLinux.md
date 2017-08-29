@@ -38,7 +38,7 @@ Open a new terminal window. Check from the first one in which taito node you are
 
 ## (b)
 
-Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* and *gbkeyto*. The new name should contain only
+Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* and *gbkey*. The new name should contain only
 
 ```
 >lcl| accessionumber_cds_number 
@@ -46,7 +46,7 @@ Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* a
 
 ## (c)
 
-Calculate the number of genes and extract the 50 first genes into a new file. From the 50 first genes check by eyeballing using color  how often TTTTTTT is found. 
+Calculate the number of genes and extract the 50 first genes into a new file. From the 50 first genes check by eyeballing using color how often TTTTTTT is found. 
 
 ## Question 4 
 **to correctly answer this question you have to resolve point (a), (b), (c) and at least two of the other points**
