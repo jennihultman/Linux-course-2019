@@ -46,7 +46,7 @@ Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* a
 
 ## (c)
 
-Calculate the number of genes and extract the 50 first genes into a new file. From the 50 first genes check by eyeballing using color how often TTTTTTT is found. 
+Calculate the number of genes and extract the 50 first genes into a new file. From the file with the 50 first genes check by eyeballing and highlighting if TTTTTTT is found and eventually count the frequency.
 
 ## Question 4 
 **to correctly answer this question you have to resolve point (a), (b), (c) and at least two of the other points**
