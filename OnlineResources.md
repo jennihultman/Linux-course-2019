@@ -4,7 +4,7 @@
 http://www.ee.surrey.ac.uk/Teaching/Unix/
 
 ### Videos, tests, etc
-Coursera.org
+https://www.coursera.org/learn/unix/home/info 
 
 ### CSC linux courses
 
