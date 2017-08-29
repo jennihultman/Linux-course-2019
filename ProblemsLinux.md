@@ -105,7 +105,6 @@ and they should be transformed as
 ...
 ```
 
-## Question 6
-
-Save your results as a *.txt* file and move them to a shared folder in your *wrk* directory. Make sure to give **Jenni** and **Mirko** access to your results. What do you need to do to enable that?
+## Submit your assey to the teacher
+Save your results as a *.txt* file and move them to a shared folder in your *wrk* directory. Make sure to give **Jenni** and **Mirko** access to your results. Finally, send to us an Email with the path where is your assay in your CSC account. **Note: we will accept only asseys which are on your CSC account. If the file is not accessible for us you will fail the exam**
 
