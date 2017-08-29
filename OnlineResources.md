@@ -9,6 +9,7 @@ Coursera.org
 ### CSC linux courses
 
 https://www.csc.fi/web/training/-/introduction-to-lin-1
+
 https://www.csc.fi/web/training/-/linux-2-intermediate-lin-1
 
 ### Unix cheat sheet
