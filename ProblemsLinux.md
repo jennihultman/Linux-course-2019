@@ -9,7 +9,6 @@
 You will be using program that will need a file from your $WRKDIR directory to be in the same directory ($HOME) where you run the program. However, the file is 5 GB and does not fit to your $HOME. What can you do? 
 
 ## Question 2
-**to correctly answer this question you have to resolve all the points**
 
 You run a BLAST search against 16S rRNA gene database using the following command
 
@@ -30,7 +29,6 @@ For further analysis you’ll need to modify the output. Write the results as a 
 -	second for the sorted number of hits to that accession number
 
 ## Question 3
-**to correctly answer this question you have to resolve all the points**
 
 ## (a)
 
@@ -49,7 +47,6 @@ Modify the gene names removing *locustag*, *protein*, *protein_id*, *location* a
 Calculate the number of genes and extract the 50 first genes into a new file. From the file with the 50 first genes check by eyeballing and highlighting if TTTTTTT is found and eventually count the frequency.
 
 ## Question 4 
-**to correctly answer this question you have to resolve point (a), (b), (c) and at least two of the other points**
 
 ### (a)
 
@@ -74,21 +71,14 @@ for example
 
 From all the 50 samples as in point **(a)** extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
 
-### (f)
+### (d)
 
 From the blast results as in point **(c)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
 
 ## Question 5
-**to correctly answer this question you have to resolve all the points**
 
-### (a)
-
-Download directly on your CSC working directory the draft genomes (contigs) of 10 *Campylobacter jejuni* genomes and 10 *Campylobacter coli* genomes (**genomic.fna.gz**) randomly selected from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/)
-
-### (b) 
-
-Change the header of the contings in each genome as consecutive number 
-e.g. for the genome GCA_000254735.2_ASM25473v2_genomic.fna.gz the list of the contigs headers are 
+Download directly on your CSC working directory the draft genome of s (contigs) of GCA_000254735.2_ASM25473v2 from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) and change the header of the contings as consecutive number 
+for example:
 
 ```
 >AIOW01000129.1 Campylobacter jejuni subsp. jejuni 1997-4 n_202_l_199_c_20.658291, whole genome shotgun sequence
@@ -103,10 +93,6 @@ and they should be transformed as
 >2
 ...
 ```
-
-### (c) 
-
-Calculate the frequency of presence of stretch of 9, 10 and 11 of single Cytosine (C) and Guanine (G) (e.g. GGGGGGGGG or CCCCCCCCC) in each genome a make a report
 
 ## Question 6
 
