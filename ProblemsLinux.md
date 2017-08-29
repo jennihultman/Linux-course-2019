@@ -57,21 +57,17 @@ Download from * [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/ba
 
 and performed the following actions:
 
-### (b) 
+1. calculate the average number of CDS of the 50 samples
 
-calculate the average number of CDS of the 50 samples
+2. delete all the CDS with length < 100 amino acid and save the results in a new file named *New_<accession number>.cds_from_genomic.fna*.
 
-### (c)
+### (b)
 
-delete all the CDS with length < 100 amino acid
-
-### (d)
-
-print in a new file the list of each *cds_from_genomic.fna* as results in point **(c)** including the complete path 
+print in a new file the list of each *New_cds_from_genomic.fna* including the complete path 
 for example 
 
 ```
-/wrk/mirossi/Linuxcourse/CjejuniCDS/ GCA_000254735.2_ASM25473v2.cds_from_genomic.fna
+/wrk/mirossi/Linuxcourse/CjejuniCDS/New_GCA_000254735.2_ASM25473v2.cds_from_genomic.fna
 ```
 
 ### (e)
