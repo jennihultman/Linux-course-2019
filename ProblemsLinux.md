@@ -62,22 +62,22 @@ Download from * [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/ba
 ### (b)
 **Points: 4**
 
-Delete all the CDS with length < 100 amino acid from the 5 **cds_from_genomic.fna.gz** you dowloaded and save the results in a new file named *New_accession number.cds_from_genomic.fna*.
-
-### (c)
-**Points: 4**
-
-print in a new file the list of each *New_accession number.cds_from_genomic.fna* including the complete path 
-for example 
+Print in a new file the list of each file you downloaded including the complete path. 
+For example: 
 
 ```
 /wrk/mirossi/Linuxcourse/CjejuniCDS/New_GCA_000254735.2_ASM25473v2.cds_from_genomic.fna
 ```
 
+### (c)
+**Points: 4**
+
+Delete all the CDS with length < 100 amino acid from the 5 **cds_from_genomic.fna.gz** you dowloaded and save the results in a new file named *New_accession number.cds_from_genomic.fna*.
+
 ### (d)
 **Points: 8**
 
-From all the 50 samples as in point **(b)** extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
+From the 5 samples you downloaded extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
 
 ### (e)
 **Points: 8**
@@ -108,6 +108,7 @@ and they should be transformed as
 Save your results as a *.txt* file and move them to a shared folder in your *wrk* directory. Make sure to give **Jenni** and **Mirko** access to your results (*look carefully the instructions on CSC webpage and remember to share the file with **all users***). Finally, send to us an Email with the path where is your essay in your CSC account. **Note: we will accept only essays which are on your CSC account. If the file is not accessible to us you will fail the exam.**
 
 You will pass the exam with 45 out of 60 points.
+We will consider also partial answers.
 
 # Good luck!!!
 
