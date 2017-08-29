@@ -59,24 +59,24 @@ and performed the following actions:
 
 1. calculate the average number of CDS of the 50 samples
 
-2. delete all the CDS with length < 100 amino acid and save the results in a new file named *New_<accession number>.cds_from_genomic.fna*.
+2. delete all the CDS with length < 100 amino acid and save the results in a new file named *New_accession number.cds_from_genomic.fna*.
 
 ### (b)
 
-print in a new file the list of each *New_cds_from_genomic.fna* including the complete path 
+print in a new file the list of each *New_accession number.cds_from_genomic.fna* including the complete path 
 for example 
 
 ```
 /wrk/mirossi/Linuxcourse/CjejuniCDS/New_GCA_000254735.2_ASM25473v2.cds_from_genomic.fna
 ```
 
-### (e)
+### (c)
 
-From all the 50 samples as in point **(c)** extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
+From all the 50 samples as in point **(a)** extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
 
 ### (f)
 
-From the blast results as in point **(e)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
+From the blast results as in point **(c)** extract for the best hit identity value and the score; make a single list with the extracted results in order from the highest score to the lowest
 
 ## Question 5
 **to correctly answer this question you have to resolve all the points**
