@@ -11,18 +11,16 @@ You will be using program that will need a file from your $WRKDIR directory to b
 
 ## Question 2
 
+## (a)
+**Points: 2**
+
 You run a BLAST search against 16S rRNA gene database using the following command
 
 ```
 pb blastn -dbnuc current_GREENGENES_gg16S_unaligned.fasta -query myseq.fastq -out blastoutput.txt -outfmt 6 -num_descriptions 1
 ```
 
-please answer the following questions
-
-## (a)
-**Points: 2**
-
-What do the used parameters mean? And what are the columns in the output?
+Access the manual and answer the following questions: i) What do the used parameters mean? ii) what are the columns in the output?
 
 ## (b)
 **Points: 8**
@@ -36,7 +34,7 @@ For further analysis you’ll need to modify the output. Write the results as a 
 ## (a)
 **Points: 2**
 
-Open a new terminal window. Check from the first one in which taito node you are logged in to. In the new terminal log into the same node. Download all cds of a bacterial genome of your choice from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/). 
+Open a new terminal window in CSC Taito. Check from the first one in which taito node you are logged in to. In the new terminal log into the same node. Download directly on your CSC working directory all CDS of a bacterial genome of your choice from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/). Which file you need to select? 
 
 ## (b)
 **Points: 3**
@@ -57,7 +55,7 @@ Calculate the number of genes and extract the 50 first genes into a new file. Fr
 ### (a)
 **Points: 1**
 
-Download from * [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) directly on your CSC working directory from 5 randomly selected files of *Campylobacter jejuni* (nucleotide sequences of the CDS annotated for the selected genome) using the following format **cds_from_genomic.fna.gz** and calculate the average number of CDS of the 5 samples.
+Download all CDS of 5 randomly selected bacterial genome of *Campylobacter jejuni* [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) and calculate the average number of CDS of the 5 samples.
 
 ### (b)
 **Points: 4**
@@ -72,12 +70,12 @@ For example:
 ### (c)
 **Points: 4**
 
-Delete all the CDS with length < 100 amino acid from the 5 **cds_from_genomic.fna.gz** you dowloaded and save the results in a new file named *New_accession number.cds_from_genomic.fna*.
+Delete all the CDS with length < 100 amino acid from the 5 files you dowloaded and save the results in a new file named as you like (e.g. *New_filename*).
 
 ### (d)
 **Points: 8**
 
-From the 5 samples you downloaded extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 50 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes (e.g. GCA_000254715.2 is the accession number of the file ’GCA_000254715.2_ASM25471v2_cds_from_genomic.fna.gz’)
+From the 5 samples you downloaded extract in a single multifasta file the best blast hit (one for each sample; meaning the final file should contain a total of 5 fasta nucleotide sequence) for the ”multidrug efflux system gene” *cmeC* Cj0365c of the reference strain *C. jejuni* NCTC 11168 (you can download it e.g. from uniprotKB) and change the name of the headers of each fasta in the multifasta file to be sure that each entry header contains only the Genome accession number of the selected genomes.
 
 ### (e)
 **Points: 8**
