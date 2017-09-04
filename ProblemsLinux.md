@@ -87,7 +87,7 @@ From the blast results as in point **(d)** extract for the best hit identity val
 ## Question 5
 **Points: 10**
 
-Download directly on your CSC working directory the draft genome of s (contigs) of GCA_000254735.2_ASM25473v2 from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) and change the header of the contings as consecutive number 
+Download the draft genome (contigs) of GCA_000254735.2_ASM25473v2 from [ftp NCBI server] (ftp://ftp.ncbi.nlm.nih.gov/genomes/genbank/bacteria/) and change the header of the contings as consecutive number 
 for example:
 
 ```
