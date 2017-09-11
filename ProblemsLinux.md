@@ -17,7 +17,7 @@ You will be using program that will need a file from your $WRKDIR directory to b
 You run a BLAST search against 16S rRNA gene database using the following command
 
 ```
-pb blastn -dbnuc current_GREENGENES_gg16S_unaligned.fasta -query myseq.fastq -out blastoutput.txt -outfmt 6 -num_descriptions 1
+pb blastn -dbnuc current_GREENGENES_gg16S_unaligned.fasta -query myseq.fasta -out blastoutput.txt -outfmt 6 -num_descriptions 1
 ```
 
 Access the manual and answer the following questions: i) What do the used parameters mean? ii) what are the columns in the output?
